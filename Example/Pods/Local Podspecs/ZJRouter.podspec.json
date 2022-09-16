@@ -1,0 +1,22 @@
+{
+  "name": "ZJRouter",
+  "version": "0.1.0",
+  "summary": "A short description of ZJRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhang232425/ZJRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhang232425": "519301084@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhang232425/ZJRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZJRouter/Classes/**/*"
+}

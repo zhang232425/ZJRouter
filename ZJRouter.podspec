@@ -7,36 +7,24 @@
 #
 
 Pod::Spec.new do |s|
+    
   s.name             = 'ZJRouter'
   s.version          = '0.1.0'
   s.summary          = 'A short description of ZJRouter.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
   s.homepage         = 'https://github.com/zhang232425/ZJRouter'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhang232425' => '519301084@qq.com' }
-  s.source           = { :git => 'https://github.com/zhang232425/ZJRouter.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'git@github.com:zhang232425/ZJRouter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'ZJRouter/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZJRouter' => ['ZJRouter/Assets/*.png']
-  # }
+  s.source_files = 'ZJRouter/Classes/**/*'
+  s.resource_bundles = {
+      'ZJRouter' => ['ZJRouter/Assets/**/*']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+  
+#  s.dependency 'Then'
+#  s.dependency 'SnapKit'
+  
 end
