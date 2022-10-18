@@ -16,15 +16,10 @@ Pod::Spec.new do |s|
   s.author           = { 'zhang232425' => '519301084@qq.com' }
   s.source           = { :git => 'git@github.com:zhang232425/ZJRouter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-  
   s.source_files = 'ZJRouter/Classes/**/*'
   s.resource_bundles = {
       'ZJRouter' => ['ZJRouter/Assets/**/*']
   }
-
   s.static_framework = true
-  
-#  s.dependency 'Then'
-#  s.dependency 'SnapKit'
   
 end
