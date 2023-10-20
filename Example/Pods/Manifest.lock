@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - ZJRouter (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - ZJRouter (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ZJRouter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZJRouter: 2e6fc4745348fb85ec2a8d9d424d6754be7ffba6
+  ZJRouter: fe06a0f15fa63398436cf3dc68c5ca7eb448c4d6
 
-PODFILE CHECKSUM: edc6f2aa064b0825f052468a71fd16cb5b8aff18
+PODFILE CHECKSUM: eb1fb51c118f33482171e4d850166fcf895eeaf2
 
 COCOAPODS: 1.11.2

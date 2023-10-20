@@ -7,148 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014EB2564CECE7A8E3EFC9708EC9012C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2908C05F587DC125DAE4ACBB5723B2FC /* Pods-ZJRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C05DDCF6CB3915485C2A5A288D579F47 /* Pods-ZJRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4AC6232C1D4E80870AB79C49AF078477 /* Pods-ZJRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C16CB21B6E1673CD7F8401A257219D /* Pods-ZJRouter_Tests-dummy.m */; };
-		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59035D12EB6A02B3A7D105C35F657D72 /* Pods-ZJRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664DCA120881FA1335CA38ECB54F359E /* Pods-ZJRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		63A54A82D3C295B865DC11918A2B7615 /* Pods-ZJRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD43FCDBC77274060C3371979184E /* Pods-ZJRouter_Example-dummy.m */; };
-		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		934165245A7246C9ABAAF313AFCECE4A /* ZJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCB4BD8A0465AF1CBFBD38FB314D360 /* ZJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		D171F59CF32835E9FACB62FD40445A26 /* ZJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7143690AEE24636BCEADB7EAC2A4BF3 /* ZJRouter-dummy.m */; };
-		D6B24FF228D40D75003DBADC /* ZJModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B24FF128D40D75003DBADC /* ZJModule.swift */; };
-		D6B24FF628D40E27003DBADC /* ZJRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B24FF528D40E27003DBADC /* ZJRouter.swift */; };
-		D6B2500028D4165F003DBADC /* ASInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B24FFD28D4165F003DBADC /* ASInvoker.swift */; };
-		D6B2500128D4165F003DBADC /* ZJRoutableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B24FFE28D4165F003DBADC /* ZJRoutableTarget.swift */; };
-		D6B2500228D4165F003DBADC /* ZJRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B24FFF28D4165F003DBADC /* ZJRouteContext.swift */; };
-		DEB7A89AB7CECB2A1C06900930901207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		DF1F4D2664CD36F7A9E9BB92A87F1628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036A12455F370B93C0814E6FF9B42756 /* ZJRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35220DAABBC89EEDEA0D2E595689B4A /* ZJRouter.swift */; };
+		036A700E98113132AD391AA60787E8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		07BD195EE5D065AEFAA17B88A094E078 /* ZJInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9AE300133FDE78160160D19F21B28 /* ZJInvoker.swift */; };
+		2908C05F587DC125DAE4ACBB5723B2FC /* Pods-ZJRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76CE25FD7E139FEA6F83DBDA277B6005 /* Pods-ZJRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31565F2F6CF3333E5E3AE3EFD42C952E /* ZJRoutableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB23E094FE7A886B2801A9F3D6354F /* ZJRoutableTarget.swift */; };
+		5D91CFEEBEFB202900D80B2442D2D1A7 /* ZJRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FA304442DBB3431E4E84D2A60DC08A /* ZJRouteContext.swift */; };
+		63A54A82D3C295B865DC11918A2B7615 /* Pods-ZJRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FA862D4875612ADBF8FFBAECE502CA /* Pods-ZJRouter_Example-dummy.m */; };
+		B1501029B124749D9063E269584FD1F3 /* ZJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F979D7FD37AEC5574B0111E625621BF /* ZJRouter-dummy.m */; };
+		D41D1130900E91E26E993F728E20280C /* ZJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A60EA0FF544DA9CCBD5554E72B00BA0 /* ZJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D518ACC8B3B6426C713D8827B6CF89ED /* ZJModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC6CBC5937133114EC53A150F6A084 /* ZJModule.swift */; };
+		DF1F4D2664CD36F7A9E9BB92A87F1628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A9DE645788682B356BE7AAE7997D90B /* PBXContainerItemProxy */ = {
+		B5A58E6E45484585652E58D6C42FADC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF4627D90862CE9C99B2C35ED799BEC;
+			remoteInfo = "ZJRouter-ZJRouter";
+		};
+		DD11A4E8EB032B3211ED6BAC9A0ECFD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3DF3942BDBA35FB0BE020625D27CF382;
 			remoteInfo = ZJRouter;
 		};
-		8A3E02A4A985C8A1C8055E6A2C322540 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		929ACC54B4DEE27AB191D40229000964 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 09434A12382D28C993CB199C2D67DE14;
-			remoteInfo = "Pods-ZJRouter_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BCB4BD8A0465AF1CBFBD38FB314D360 /* ZJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJRouter-umbrella.h"; sourceTree = "<group>"; };
-		0BE82C108731EE8B2B2894E8BBEB6AC3 /* ZJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJRouter-prefix.pch"; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		1185CF00FCA28EBE70C2A00989660A78 /* ZJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJRouter.modulemap; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1C75B79302C57193DF8B942D89B10792 /* Pods-ZJRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJRouter_Example.modulemap"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2147D4A376A0B5A6EF9BEA2569B10EBD /* Pods-ZJRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		264E7A03899D0EC2272B34B3326E687B /* Pods-ZJRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2DEBD43FCDBC77274060C3371979184E /* Pods-ZJRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		2F2344F5CE5E2D8C62E0E34FC493B519 /* ZJRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJRouter.release.xcconfig; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		33C16CB21B6E1673CD7F8401A257219D /* Pods-ZJRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		1977D0E865503F6DD29E5380D2E1AD44 /* ZJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJRouter-prefix.pch"; sourceTree = "<group>"; };
+		1BD6F6ABE322BAD20ADB0CA33033F8B9 /* Pods-ZJRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28A9AE300133FDE78160160D19F21B28 /* ZJInvoker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJInvoker.swift; path = ZJRouter/Classes/ZJInvoker.swift; sourceTree = "<group>"; };
+		2F1F0E75A467899FBF6DF83EFA4F67E0 /* ZJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36B87236AA446386EFB074E391F8F83D /* Pods-ZJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38D161F890E501321FECB2309ED30E77 /* ZJRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJRouter; path = ZJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3972610A02F0207DEE22CD26D0C7D509 /* Pods-ZJRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		40E450A76BE7A5483E4BD91CC47472D7 /* ZJRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJRouter.debug.xcconfig; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		462CA5837570CFCC73BB6BD11EE6BD23 /* Pods-ZJRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4C0462B08635F5F4DB9A5FEC611B5621 /* Pods-ZJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		58EDB186CA4A1C39CE4629E8C28469FD /* Pods-ZJRouter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZJRouter_Tests"; path = Pods_ZJRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D3319D643076BAECC556C56F16846AA /* Pods-ZJRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Example-Info.plist"; sourceTree = "<group>"; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		664DCA120881FA1335CA38ECB54F359E /* Pods-ZJRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6AF7129A6026288D25D74DF4AFAA4485 /* Pods-ZJRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CB495ED8C6DEFD19991A5FB04DE6C33 /* Pods-ZJRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		971FF5BC333CE9AEB7C55D2D33D95DFB /* Pods-ZJRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		3A60EA0FF544DA9CCBD5554E72B00BA0 /* ZJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJRouter-umbrella.h"; sourceTree = "<group>"; };
+		4020F6929EE8C0BBB5B38E841A32E23A /* ZJRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJRouter.debug.xcconfig; sourceTree = "<group>"; };
+		4995E39CACD91EE558C4B52C563B7EB8 /* Pods-ZJRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BD78DD83B7B8755168BC0091522DB69 /* Pods-ZJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67BC6CBC5937133114EC53A150F6A084 /* ZJModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJModule.swift; path = ZJRouter/Classes/ZJModule.swift; sourceTree = "<group>"; };
+		6DC390B47E513EED50EA05EBF0DD5104 /* ResourceBundle-ZJRouter-ZJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZJRouter-ZJRouter-Info.plist"; sourceTree = "<group>"; };
+		6F979D7FD37AEC5574B0111E625621BF /* ZJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJRouter-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76CE25FD7E139FEA6F83DBDA277B6005 /* Pods-ZJRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		80DE21B7C4A2FCDF469FE4A24A52654A /* Pods-ZJRouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJRouter_Example-resources.sh"; sourceTree = "<group>"; };
+		82D0D20D1F01A5A6FAC44043E3A7B38D /* ZJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJRouter-Info.plist"; sourceTree = "<group>"; };
+		94FA862D4875612ADBF8FFBAECE502CA /* Pods-ZJRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		96DB23E094FE7A886B2801A9F3D6354F /* ZJRoutableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJRoutableTarget.swift; path = ZJRouter/Classes/ZJRoutableTarget.swift; sourceTree = "<group>"; };
+		9BAC24479AEA9DA5E86A41993D5612CF /* ZJRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJRouter.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B198E49C869B1C7B7D02F45847EF55B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B7143690AEE24636BCEADB7EAC2A4BF3 /* ZJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJRouter-dummy.m"; sourceTree = "<group>"; };
-		C05DDCF6CB3915485C2A5A288D579F47 /* Pods-ZJRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		A35220DAABBC89EEDEA0D2E595689B4A /* ZJRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJRouter.swift; path = ZJRouter/Classes/ZJRouter.swift; sourceTree = "<group>"; };
+		AA581679A361C288276E2F3FE941A6E7 /* ZJRouter-ZJRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZJRouter-ZJRouter"; path = ZJRouter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEDEDE58CCF6F5AEDF98DD139BC82FB /* Pods-ZJRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Example-Info.plist"; sourceTree = "<group>"; };
 		C07FFC8B63D429A23A30A58054615870 /* Pods-ZJRouter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZJRouter_Example"; path = Pods_ZJRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1B84C5D542D507F42645889503D41A7 /* ZJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJRouter-Info.plist"; sourceTree = "<group>"; };
-		CB167FBCF39444BC17F3A0AB62B5733B /* Pods-ZJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D4991F9DE6B23049841B0E4778D6C1B5 /* Pods-ZJRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		D6B24FF128D40D75003DBADC /* ZJModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJModule.swift; path = ZJRouter/Classes/ZJModule.swift; sourceTree = "<group>"; };
-		D6B24FF528D40E27003DBADC /* ZJRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJRouter.swift; path = ZJRouter/Classes/ZJRouter.swift; sourceTree = "<group>"; };
-		D6B24FFD28D4165F003DBADC /* ASInvoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASInvoker.swift; path = ZJRouter/Classes/ASInvoker.swift; sourceTree = "<group>"; };
-		D6B24FFE28D4165F003DBADC /* ZJRoutableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJRoutableTarget.swift; path = ZJRouter/Classes/ZJRoutableTarget.swift; sourceTree = "<group>"; };
-		D6B24FFF28D4165F003DBADC /* ZJRouteContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZJRouteContext.swift; path = ZJRouter/Classes/ZJRouteContext.swift; sourceTree = "<group>"; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DC3094B910347544E738F0D7EAA3A4A0 /* Pods-ZJRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF85ED032514728AFA7A9C5B4A13D3A4 /* Pods-ZJRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E1CBC0B5056BFC2466CA099CE876E961 /* ZJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EDB123B66052A11F9AF55A8C8500B555 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		C0FA304442DBB3431E4E84D2A60DC08A /* ZJRouteContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJRouteContext.swift; path = ZJRouter/Classes/ZJRouteContext.swift; sourceTree = "<group>"; };
+		C4D3B2266811276B01E8C2D270C59C33 /* Pods-ZJRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJRouter_Example.modulemap"; sourceTree = "<group>"; };
+		C693E6339A71F6485245029F6070FA8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E26286A6BC27F7E04D1FC6A4662820FC /* ZJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJRouter.modulemap; sourceTree = "<group>"; };
+		F66DC000CAF0D0995D83B94C6CAE3698 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A5B92DD9FD1B0209ADF10A8FAAE70D7 /* Frameworks */ = {
+		410B010AD4119E1B0762C173ADC95EC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014EB2564CECE7A8E3EFC9708EC9012C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		940F4F3C3100B79FC97DB66702F0A977 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEB7A89AB7CECB2A1C06900930901207 /* Foundation.framework in Frameworks */,
+				036A700E98113132AD391AA60787E8E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,213 +87,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+		E16C9A6CD9B0643D09D6300531CB1B29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
-				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
-				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
-				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		321E409D8D6D34B65190A4CFD34811E1 /* Products */ = {
+		179CAB0051BDE5ADF215B30DC74D6194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
 				C07FFC8B63D429A23A30A58054615870 /* Pods-ZJRouter_Example */,
-				58EDB186CA4A1C39CE4629E8C28469FD /* Pods-ZJRouter_Tests */,
 				38D161F890E501321FECB2309ED30E77 /* ZJRouter */,
+				AA581679A361C288276E2F3FE941A6E7 /* ZJRouter-ZJRouter */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+		4FC2EEB644AA21AF4EB74EB48FB216D5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+				6DC390B47E513EED50EA05EBF0DD5104 /* ResourceBundle-ZJRouter-ZJRouter-Info.plist */,
+				E26286A6BC27F7E04D1FC6A4662820FC /* ZJRouter.modulemap */,
+				6F979D7FD37AEC5574B0111E625621BF /* ZJRouter-dummy.m */,
+				82D0D20D1F01A5A6FAC44043E3A7B38D /* ZJRouter-Info.plist */,
+				1977D0E865503F6DD29E5380D2E1AD44 /* ZJRouter-prefix.pch */,
+				3A60EA0FF544DA9CCBD5554E72B00BA0 /* ZJRouter-umbrella.h */,
+				4020F6929EE8C0BBB5B38E841A32E23A /* ZJRouter.debug.xcconfig */,
+				9BAC24479AEA9DA5E86A41993D5612CF /* ZJRouter.release.xcconfig */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJRouter";
 			sourceTree = "<group>";
 		};
-		59D382D951BFDB3FBBBD8FDEFC17CE5E /* Pods-ZJRouter_Example */ = {
+		568B3C48E32653C6AC389525230893D7 /* Pods-ZJRouter_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1C75B79302C57193DF8B942D89B10792 /* Pods-ZJRouter_Example.modulemap */,
-				971FF5BC333CE9AEB7C55D2D33D95DFB /* Pods-ZJRouter_Example-acknowledgements.markdown */,
-				DC3094B910347544E738F0D7EAA3A4A0 /* Pods-ZJRouter_Example-acknowledgements.plist */,
-				2DEBD43FCDBC77274060C3371979184E /* Pods-ZJRouter_Example-dummy.m */,
-				462CA5837570CFCC73BB6BD11EE6BD23 /* Pods-ZJRouter_Example-frameworks.sh */,
-				5D3319D643076BAECC556C56F16846AA /* Pods-ZJRouter_Example-Info.plist */,
-				C05DDCF6CB3915485C2A5A288D579F47 /* Pods-ZJRouter_Example-umbrella.h */,
-				4C0462B08635F5F4DB9A5FEC611B5621 /* Pods-ZJRouter_Example.debug.xcconfig */,
-				CB167FBCF39444BC17F3A0AB62B5733B /* Pods-ZJRouter_Example.release.xcconfig */,
+				C4D3B2266811276B01E8C2D270C59C33 /* Pods-ZJRouter_Example.modulemap */,
+				1BD6F6ABE322BAD20ADB0CA33033F8B9 /* Pods-ZJRouter_Example-acknowledgements.markdown */,
+				4995E39CACD91EE558C4B52C563B7EB8 /* Pods-ZJRouter_Example-acknowledgements.plist */,
+				94FA862D4875612ADBF8FFBAECE502CA /* Pods-ZJRouter_Example-dummy.m */,
+				BEEDEDE58CCF6F5AEDF98DD139BC82FB /* Pods-ZJRouter_Example-Info.plist */,
+				80DE21B7C4A2FCDF469FE4A24A52654A /* Pods-ZJRouter_Example-resources.sh */,
+				76CE25FD7E139FEA6F83DBDA277B6005 /* Pods-ZJRouter_Example-umbrella.h */,
+				4BD78DD83B7B8755168BC0091522DB69 /* Pods-ZJRouter_Example.debug.xcconfig */,
+				36B87236AA446386EFB074E391F8F83D /* Pods-ZJRouter_Example.release.xcconfig */,
 			);
 			name = "Pods-ZJRouter_Example";
 			path = "Target Support Files/Pods-ZJRouter_Example";
 			sourceTree = "<group>";
 		};
-		5FD2E842B20046D7B2A1F287898AC371 /* Targets Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				59D382D951BFDB3FBBBD8FDEFC17CE5E /* Pods-ZJRouter_Example */,
-				F2511FA3697AE152A22613131BC6D977 /* Pods-ZJRouter_Tests */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		933E0EDEC7CBDC46C41B39B73BE4DB24 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B115EB07945218CF0180B74B7E3FAE2 /* ZJRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B0509EBC6D201367C9499E94C4FD080 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				568B3C48E32653C6AC389525230893D7 /* Pods-ZJRouter_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8CFD9638B949F5D82653060585E03531 /* ZJRouter */ = {
+		9B115EB07945218CF0180B74B7E3FAE2 /* ZJRouter */ = {
 			isa = PBXGroup;
 			children = (
-				D6B24FFD28D4165F003DBADC /* ASInvoker.swift */,
-				D6B24FFE28D4165F003DBADC /* ZJRoutableTarget.swift */,
-				D6B24FFF28D4165F003DBADC /* ZJRouteContext.swift */,
-				D6B24FF128D40D75003DBADC /* ZJModule.swift */,
-				D6B24FF528D40E27003DBADC /* ZJRouter.swift */,
-				FDF47C8A8EB3776BB333145FFC4C1BC7 /* Pod */,
-				D2CE446830E010E12959FCB8EDB6283F /* Support Files */,
+				28A9AE300133FDE78160160D19F21B28 /* ZJInvoker.swift */,
+				67BC6CBC5937133114EC53A150F6A084 /* ZJModule.swift */,
+				96DB23E094FE7A886B2801A9F3D6354F /* ZJRoutableTarget.swift */,
+				C0FA304442DBB3431E4E84D2A60DC08A /* ZJRouteContext.swift */,
+				A35220DAABBC89EEDEA0D2E595689B4A /* ZJRouter.swift */,
+				A3D8DF97741B07BBA423AB56EF212E05 /* Pod */,
+				4FC2EEB644AA21AF4EB74EB48FB216D5 /* Support Files */,
 			);
 			name = ZJRouter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		A3D8DF97741B07BBA423AB56EF212E05 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+				C693E6339A71F6485245029F6070FA8F /* LICENSE */,
+				F66DC000CAF0D0995D83B94C6CAE3698 /* README.md */,
+				2F1F0E75A467899FBF6DF83EFA4F67E0 /* ZJRouter.podspec */,
 			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D5E29163404F47FE8E877109F03A8B16 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				321E409D8D6D34B65190A4CFD34811E1 /* Products */,
-				5FD2E842B20046D7B2A1F287898AC371 /* Targets Support Files */,
+				933E0EDEC7CBDC46C41B39B73BE4DB24 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				179CAB0051BDE5ADF215B30DC74D6194 /* Products */,
+				9B0509EBC6D201367C9499E94C4FD080 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D2CE446830E010E12959FCB8EDB6283F /* Support Files */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1185CF00FCA28EBE70C2A00989660A78 /* ZJRouter.modulemap */,
-				B7143690AEE24636BCEADB7EAC2A4BF3 /* ZJRouter-dummy.m */,
-				C1B84C5D542D507F42645889503D41A7 /* ZJRouter-Info.plist */,
-				0BE82C108731EE8B2B2894E8BBEB6AC3 /* ZJRouter-prefix.pch */,
-				0BCB4BD8A0465AF1CBFBD38FB314D360 /* ZJRouter-umbrella.h */,
-				40E450A76BE7A5483E4BD91CC47472D7 /* ZJRouter.debug.xcconfig */,
-				2F2344F5CE5E2D8C62E0E34FC493B519 /* ZJRouter.release.xcconfig */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZJRouter";
-			sourceTree = "<group>";
-		};
-		D5E29163404F47FE8E877109F03A8B16 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8CFD9638B949F5D82653060585E03531 /* ZJRouter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F2511FA3697AE152A22613131BC6D977 /* Pods-ZJRouter_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				264E7A03899D0EC2272B34B3326E687B /* Pods-ZJRouter_Tests.modulemap */,
-				DF85ED032514728AFA7A9C5B4A13D3A4 /* Pods-ZJRouter_Tests-acknowledgements.markdown */,
-				6AF7129A6026288D25D74DF4AFAA4485 /* Pods-ZJRouter_Tests-acknowledgements.plist */,
-				33C16CB21B6E1673CD7F8401A257219D /* Pods-ZJRouter_Tests-dummy.m */,
-				2147D4A376A0B5A6EF9BEA2569B10EBD /* Pods-ZJRouter_Tests-frameworks.sh */,
-				D4991F9DE6B23049841B0E4778D6C1B5 /* Pods-ZJRouter_Tests-Info.plist */,
-				664DCA120881FA1335CA38ECB54F359E /* Pods-ZJRouter_Tests-umbrella.h */,
-				6CB495ED8C6DEFD19991A5FB04DE6C33 /* Pods-ZJRouter_Tests.debug.xcconfig */,
-				3972610A02F0207DEE22CD26D0C7D509 /* Pods-ZJRouter_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZJRouter_Tests";
-			path = "Target Support Files/Pods-ZJRouter_Tests";
-			sourceTree = "<group>";
-		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FDF47C8A8EB3776BB333145FFC4C1BC7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B198E49C869B1C7B7D02F45847EF55B0 /* LICENSE */,
-				EDB123B66052A11F9AF55A8C8500B555 /* README.md */,
-				E1CBC0B5056BFC2466CA099CE876E961 /* ZJRouter.podspec */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,34 +219,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6D7D5F819D7DF33AE0A0656CCCA6FBB /* Headers */ = {
+		AF244FC74DE33B2D730B9C20D7AF5209 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59035D12EB6A02B3A7D105C35F657D72 /* Pods-ZJRouter_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
-				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
-				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
-				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
-				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
-				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
-				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBB8F900382F31C7E42A23275853B459 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				934165245A7246C9ABAAF313AFCECE4A /* ZJRouter-umbrella.h in Headers */,
+				D41D1130900E91E26E993F728E20280C /* ZJRouter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,67 +242,47 @@
 			buildRules = (
 			);
 			dependencies = (
-				2066D8140C3089445896226042968B20 /* PBXTargetDependency */,
+				0EB5D412DCD792DA960CE84077FFF70D /* PBXTargetDependency */,
 			);
 			name = "Pods-ZJRouter_Example";
 			productName = Pods_ZJRouter_Example;
 			productReference = C07FFC8B63D429A23A30A58054615870 /* Pods-ZJRouter_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		192FF0A66B62B8AAE653404F9FEA6C36 /* Pods-ZJRouter_Tests */ = {
+		1DF4627D90862CE9C99B2C35ED799BEC /* ZJRouter-ZJRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E71BDEA6417799F0E5248D3987117077 /* Build configuration list for PBXNativeTarget "Pods-ZJRouter_Tests" */;
+			buildConfigurationList = 4CF19D7248DE11DE68AF57E9C3491130 /* Build configuration list for PBXNativeTarget "ZJRouter-ZJRouter" */;
 			buildPhases = (
-				C6D7D5F819D7DF33AE0A0656CCCA6FBB /* Headers */,
-				49A0D2194EBE9300ECFBB01A8E9754F8 /* Sources */,
-				940F4F3C3100B79FC97DB66702F0A977 /* Frameworks */,
-				7D869C1C1C2AF2F2A9A62B5D17C9931A /* Resources */,
+				C8847AE6A1A3FF3EF6F4096CF1CFF45E /* Sources */,
+				E16C9A6CD9B0643D09D6300531CB1B29 /* Frameworks */,
+				25AF0E806448C14C9A0A5F8944BD8EF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8C93AFAD136B8EF94FA066672A477B3 /* PBXTargetDependency */,
-				63E95F2797B5D487C031ED0975B24C0B /* PBXTargetDependency */,
 			);
-			name = "Pods-ZJRouter_Tests";
-			productName = Pods_ZJRouter_Tests;
-			productReference = 58EDB186CA4A1C39CE4629E8C28469FD /* Pods-ZJRouter_Tests */;
-			productType = "com.apple.product-type.framework";
+			name = "ZJRouter-ZJRouter";
+			productName = ZJRouter;
+			productReference = AA581679A361C288276E2F3FE941A6E7 /* ZJRouter-ZJRouter */;
+			productType = "com.apple.product-type.bundle";
 		};
 		3DF3942BDBA35FB0BE020625D27CF382 /* ZJRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 295F9B027848569ABE090FBB9CE5E583 /* Build configuration list for PBXNativeTarget "ZJRouter" */;
+			buildConfigurationList = 402312948C8AE2E9CEE83B66A358AEFA /* Build configuration list for PBXNativeTarget "ZJRouter" */;
 			buildPhases = (
-				DBB8F900382F31C7E42A23275853B459 /* Headers */,
-				95342753F981ACAC31AC99D31AA64358 /* Sources */,
-				0A5B92DD9FD1B0209ADF10A8FAAE70D7 /* Frameworks */,
-				245A5983B6E5D4C08759736ED465AB32 /* Resources */,
+				AF244FC74DE33B2D730B9C20D7AF5209 /* Headers */,
+				2BC94B749BDF4111A43C24498EB2F4D6 /* Sources */,
+				410B010AD4119E1B0762C173ADC95EC9 /* Frameworks */,
+				451F7272F1FC5961E26848033F0EB7E7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2E36321F6082ABC9BB10127DD984E859 /* PBXTargetDependency */,
 			);
 			name = ZJRouter;
 			productName = ZJRouter;
 			productReference = 38D161F890E501321FECB2309ED30E77 /* ZJRouter */;
-			productType = "com.apple.product-type.framework";
-		};
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
-				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
-				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
-				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -507,27 +303,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 321E409D8D6D34B65190A4CFD34811E1 /* Products */;
+			productRefGroup = 179CAB0051BDE5ADF215B30DC74D6194 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
 				09434A12382D28C993CB199C2D67DE14 /* Pods-ZJRouter_Example */,
-				192FF0A66B62B8AAE653404F9FEA6C36 /* Pods-ZJRouter_Tests */,
 				3DF3942BDBA35FB0BE020625D27CF382 /* ZJRouter */,
+				1DF4627D90862CE9C99B2C35ED799BEC /* ZJRouter-ZJRouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+		25AF0E806448C14C9A0A5F8944BD8EF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		245A5983B6E5D4C08759736ED465AB32 /* Resources */ = {
+		451F7272F1FC5961E26848033F0EB7E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,21 +336,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D869C1C1C2AF2F2A9A62B5D17C9931A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49A0D2194EBE9300ECFBB01A8E9754F8 /* Sources */ = {
+		2BC94B749BDF4111A43C24498EB2F4D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC6232C1D4E80870AB79C49AF078477 /* Pods-ZJRouter_Tests-dummy.m in Sources */,
+				07BD195EE5D065AEFAA17B88A094E078 /* ZJInvoker.swift in Sources */,
+				D518ACC8B3B6426C713D8827B6CF89ED /* ZJModule.swift in Sources */,
+				31565F2F6CF3333E5E3AE3EFD42C952E /* ZJRoutableTarget.swift in Sources */,
+				5D91CFEEBEFB202900D80B2442D2D1A7 /* ZJRouteContext.swift in Sources */,
+				036A12455F370B93C0814E6FF9B42756 /* ZJRouter.swift in Sources */,
+				B1501029B124749D9063E269584FD1F3 /* ZJRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,63 +360,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95342753F981ACAC31AC99D31AA64358 /* Sources */ = {
+		C8847AE6A1A3FF3EF6F4096CF1CFF45E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D171F59CF32835E9FACB62FD40445A26 /* ZJRouter-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
-				D6B24FF628D40E27003DBADC /* ZJRouter.swift in Sources */,
-				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
-				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
-				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
-				D6B2500228D4165F003DBADC /* ZJRouteContext.swift in Sources */,
-				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
-				D6B24FF228D40D75003DBADC /* ZJModule.swift in Sources */,
-				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
-				D6B2500028D4165F003DBADC /* ASInvoker.swift in Sources */,
-				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
-				D6B2500128D4165F003DBADC /* ZJRoutableTarget.swift in Sources */,
-				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
-				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2066D8140C3089445896226042968B20 /* PBXTargetDependency */ = {
+		0EB5D412DCD792DA960CE84077FFF70D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZJRouter;
 			target = 3DF3942BDBA35FB0BE020625D27CF382 /* ZJRouter */;
-			targetProxy = 0A9DE645788682B356BE7AAE7997D90B /* PBXContainerItemProxy */;
+			targetProxy = DD11A4E8EB032B3211ED6BAC9A0ECFD9 /* PBXContainerItemProxy */;
 		};
-		63E95F2797B5D487C031ED0975B24C0B /* PBXTargetDependency */ = {
+		2E36321F6082ABC9BB10127DD984E859 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ZJRouter_Example";
-			target = 09434A12382D28C993CB199C2D67DE14 /* Pods-ZJRouter_Example */;
-			targetProxy = 929ACC54B4DEE27AB191D40229000964 /* PBXContainerItemProxy */;
-		};
-		F8C93AFAD136B8EF94FA066672A477B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 8A3E02A4A985C8A1C8055E6A2C322540 /* PBXContainerItemProxy */;
+			name = "ZJRouter-ZJRouter";
+			target = 1DF4627D90862CE9C99B2C35ED799BEC /* ZJRouter-ZJRouter */;
+			targetProxy = B5A58E6E45484585652E58D6C42FADC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+		186D9666FB0F9518DFF248B45D14337A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 4020F6929EE8C0BBB5B38E841A32E23A /* ZJRouter.debug.xcconfig */;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJRouter";
+				IBSC_MODULE = ZJRouter;
+				INFOPLIST_FILE = "Target Support Files/ZJRouter/ResourceBundle-ZJRouter-ZJRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4AD2BCF320751D5995FB723BC181792E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAC24479AEA9DA5E86A41993D5612CF /* ZJRouter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -632,14 +414,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJRouter/ZJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJRouter/ZJRouter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ZJRouter/ZJRouter.modulemap";
+				PRODUCT_MODULE_NAME = ZJRouter;
+				PRODUCT_NAME = ZJRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -653,7 +436,7 @@
 		};
 		4B23D18D8FAF8A40A0BE93174AEFE583 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C0462B08635F5F4DB9A5FEC611B5621 /* Pods-ZJRouter_Example.debug.xcconfig */;
+			baseConfigurationReference = 4BD78DD83B7B8755168BC0091522DB69 /* Pods-ZJRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -684,9 +467,9 @@
 			};
 			name = Debug;
 		};
-		5083C8E6C8EA884E547721A871EDECEF /* Debug */ = {
+		5E03E5EAA92A640DCEC203E3DAF152E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40E450A76BE7A5483E4BD91CC47472D7 /* ZJRouter.debug.xcconfig */;
+			baseConfigurationReference = 4020F6929EE8C0BBB5B38E841A32E23A /* ZJRouter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -702,6 +485,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/ZJRouter/ZJRouter.modulemap";
 				PRODUCT_MODULE_NAME = ZJRouter;
 				PRODUCT_NAME = ZJRouter;
@@ -709,39 +493,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		64E7E7615772EA823CE72F2F8CAE84CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CB495ED8C6DEFD19991A5FB04DE6C33 /* Pods-ZJRouter_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZJRouter_Tests/Pods-ZJRouter_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZJRouter_Tests/Pods-ZJRouter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -809,39 +560,9 @@
 			};
 			name = Release;
 		};
-		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		84D9AB59DFABA5010F2CA322ED4D04A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB167FBCF39444BC17F3A0AB62B5733B /* Pods-ZJRouter_Example.release.xcconfig */;
+			baseConfigurationReference = 36B87236AA446386EFB074E391F8F83D /* Pods-ZJRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -870,6 +591,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BBA90156C7AB060F769636E2E5EA402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAC24479AEA9DA5E86A41993D5612CF /* ZJRouter.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJRouter";
+				IBSC_MODULE = ZJRouter;
+				INFOPLIST_FILE = "Target Support Files/ZJRouter/ResourceBundle-ZJRouter-ZJRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -939,72 +676,6 @@
 			};
 			name = Debug;
 		};
-		D7C87463FA9D6E478E3C995B5BFAE70F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3972610A02F0207DEE22CD26D0C7D509 /* Pods-ZJRouter_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZJRouter_Tests/Pods-ZJRouter_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZJRouter_Tests/Pods-ZJRouter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2E9B04C0C87A6C84B7DCBA8AD1E97A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F2344F5CE5E2D8C62E0E34FC493B519 /* ZJRouter.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZJRouter/ZJRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZJRouter/ZJRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZJRouter/ZJRouter.modulemap";
-				PRODUCT_MODULE_NAME = ZJRouter;
-				PRODUCT_NAME = ZJRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1017,20 +688,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		402312948C8AE2E9CEE83B66A358AEFA /* Build configuration list for PBXNativeTarget "ZJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
-				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		295F9B027848569ABE090FBB9CE5E583 /* Build configuration list for PBXNativeTarget "ZJRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5083C8E6C8EA884E547721A871EDECEF /* Debug */,
-				F2E9B04C0C87A6C84B7DCBA8AD1E97A5 /* Release */,
+				5E03E5EAA92A640DCEC203E3DAF152E7 /* Debug */,
+				4AD2BCF320751D5995FB723BC181792E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1044,11 +706,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E71BDEA6417799F0E5248D3987117077 /* Build configuration list for PBXNativeTarget "Pods-ZJRouter_Tests" */ = {
+		4CF19D7248DE11DE68AF57E9C3491130 /* Build configuration list for PBXNativeTarget "ZJRouter-ZJRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64E7E7615772EA823CE72F2F8CAE84CA /* Debug */,
-				D7C87463FA9D6E478E3C995B5BFAE70F /* Release */,
+				186D9666FB0F9518DFF248B45D14337A /* Debug */,
+				9BBA90156C7AB060F769636E2E5EA402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
